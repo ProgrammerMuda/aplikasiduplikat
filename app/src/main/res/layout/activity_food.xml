@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="7dp"
+        android:layout_alignParentTop="true"
+        android:background="#ff7b7b"
+        android:id="@+id/linear">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/food"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:text="hmm yummy, this is very delicious food"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_below="@id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/bt1"
+                android:paddingBottom="30dp"
+                android:paddingTop="30dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/friedrice"
+                android:backgroundTint="#b5ff96"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:text="fried rice"
+                android:textSize="30dp"/>
+
+            <Button
+                android:id="@+id/bt2"
+                android:paddingBottom="30dp"
+                android:paddingTop="30dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/pizza"
+                android:backgroundTint="#faf061"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:text="Pizza"
+                android:textSize="30dp"/>
+
+            <Button
+                android:id="@+id/bt3"
+                android:paddingBottom="30dp"
+                android:paddingTop="30dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/pasta"
+                android:backgroundTint="#95fff6"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:text="Meat ball"
+                android:textSize="30dp"/>
+
+            <Button
+                android:id="@+id/bt4"
+                android:paddingBottom="30dp"
+                android:paddingTop="30dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/burger"
+                android:backgroundTint="#fff5ad"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:text="burger"
+                android:textSize="30dp"/>
+
+            <Button
+                android:id="@+id/bt5"
+                android:paddingBottom="30dp"
+                android:paddingTop="30dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/toast"
+                android:backgroundTint="#df8f4d"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:text="bread"
+                android:textSize="30dp"/>
+
+            <Button
+                android:id="@+id/bt6"
+                android:paddingBottom="30dp"
+                android:paddingTop="30dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/noodles"
+                android:backgroundTint="#fd7f78"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:text="noodles"
+                android:textSize="30dp"/>
+
+            <Button
+                android:id="@+id/bt7"
+                android:paddingBottom="30dp"
+                android:paddingTop="30dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/roastchicken"
+                android:backgroundTint="#efefef"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:text="Roast chicken"
+                android:textSize="30dp"/>
+
+            <Button
+                android:id="@+id/bt8"
+                android:paddingBottom="30dp"
+                android:paddingTop="30dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/doughnut"
+                android:backgroundTint="#ffa2fa"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:text="Doughnut"
+                android:textSize="30dp"/>
+
+            <Button
+                android:id="@+id/bt9"
+                android:paddingBottom="30dp"
+                android:paddingTop="30dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/satay"
+                android:backgroundTint="#b5ff96"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:text="satay"
+                android:textSize="30dp"/>
+            <Button
+                android:id="@+id/bt10"
+                android:paddingBottom="30dp"
+                android:paddingTop="30dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/tofu"
+                android:backgroundTint="#fcdab0"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:text="tofu"
+                android:textSize="30dp"/>
+            <Button
+                android:id="@+id/bt11"
+                android:paddingBottom="30dp"
+                android:paddingTop="30dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/pancake"
+                android:backgroundTint="#f6fa81"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:text="pancake"
+                android:textSize="30dp"/>
+
+            <Button
+                android:id="@+id/bt12"
+                android:paddingBottom="30dp"
+                android:paddingTop="30dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/porridge"
+                android:backgroundTint="#fa81b5"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:text="porridge"
+                android:textSize="30dp"/>
+
+            <Button
+                android:id="@+id/bt13"
+                android:paddingBottom="30dp"
+                android:paddingTop="30dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/cake"
+                android:backgroundTint="#4dc1ff"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:text="cake"
+                android:textSize="30dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/panahh"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

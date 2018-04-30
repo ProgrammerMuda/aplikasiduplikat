@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="button_satu">#7fef53</color>
+    <color name="button_DUA">#a8fa76</color>
+    <color name="button_tiga">#88ffeb</color>
+    <color name="button_empat">#75e9d5</color>
+    <color name="button_lima">#f76262</color>
+    <color name="button_enam">#ea4d47</color>
+    <color name="shape1">#ff4a4a</color>
+    <color name="shape2">#fffc64</color>
+    <color name="shape3">#8cff56</color>
+    <color name="shape4">#56ffe0</color>
+    <color name="shape5">#5c54ff</color>
+    <color name="shape6">#f454ff</color>
+    <color name="shape7">#ae32fa</color>
+
+</resources>

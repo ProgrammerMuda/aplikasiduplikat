@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#fffdb8">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <RelativeLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/language" />
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:id="@+id/linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <EditText
+                        android:id="@+id/edtUsername"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Masukkan Username or Email"
+                        android:inputType="text"
+                        android:textColor="#000000"
+                        android:textColorHint="@android:color/white" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edtPassword"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:hint="Masukkan Password"
+                        android:inputType="textPassword"
+                        android:textColor="#000000"
+                        android:textColorHint="@android:color/white" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <Button
+                    android:id="@+id/btnSignIn"
+                    android:backgroundTint="#65e241"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text="Sign In"
+                    android:textStyle="bold"
+                    android:textColor="#ffff" />
+
+                <Button
+                    android:id="@+id/btnSignUp"
+                    android:backgroundTint="#f1d24b"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:textStyle="bold"
+                    android:text="I Don't have an Account, Sign Up Now!"
+                    android:textColor="#ffff"/>
+                <Button
+                    android:id="@+id/btnexit"
+                    android:backgroundTint="#ff5353"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:textStyle="bold"
+                    android:text="EXIT"
+                    android:textColor="#ffff"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ProgressBar
+                    android:id="@+id/pgLoading"
+                    android:layout_marginTop="110dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+
+</ScrollView>
